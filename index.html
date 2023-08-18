@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eke Stephanie">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <section class="address">
+        <fieldset>
+            <legend>Your address</legend>
+         <div>
+            <label for"firstName">First name</label>
+            &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+            &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+           <input type="text" name="firstName" id="firstName"></div>
+            <br>
+            <div>
+           <label for"lastName">Last name</label>
+           &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+           &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+          <input type="text" name="lastName" id="lastName"></div><br>
+           <div>
+          <label for"street">Street</label>
+          &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+          &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+         <input type="text" name="street" id="street"></div><br>
+         <div>
+            <label for"street">City</label>
+            &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+            &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+           <input type="text" name="city" id="city"></div><br></section>
+       </fieldset>
+       <br>
+       <section class="additional-details">
+        <fieldset>
+            <legend>Additional details</legend>
+            <div>
+                <label for="biography">Biography</label>
+                &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+                &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+              <textarea type="text" id="biography" rows="2" cols="20"></textarea>
+            </div><br>
+            <div>
+                <label for="image">Image</label>
+                &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+                &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+                &nbsp;  &nbsp;  &nbsp; &nbsp;
+              <input type="file" id="image" placeholder="Choose file">
+            </div><br>
+            <div>
+                <label for="ageGroup">Age Group</label>
+                &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+                &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+                
+              <input type="number" id="ageGroup" placeholder="&nbsp;0 to 9 Years">
+            </div><br>
+        </fieldset>
+       </section>
+       <br>
+       <section class="interests">
+       
+        <fieldset>
+         
+            <legend>Interests</legend>
+            <div>
+                <label for="hobbies">Hobbies</label>
+                &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+                &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+                <select id="hobbies" name="hobbies" multiple>
+                 
+                    <option value="playing-soccer">Playing soccer</option>
+                    <option value="dancing">Dancing</option>
+                    <option value="gardening">Gardening</option>
+                    <option value="watching-movies">Watching movies</option>
+                </select></div><br>
+                <div>
+                    <label for="car">Favourite car?</label>
+                    &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+                    &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; 
+                   
+                   <select id="car" name="car" >
+                    <option value="toyota">Toyota</option>
+                        <option value="bmw">BMW</option>
+                        <option value="volvo" selected>Volvo</option>
+                        <option value="benz">Benz</option>
+                     </select></div><br>
+                    <div>
+                        <label for="transport">Favourite public transport?</label>
+                        &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; 
+                        <select id="transport" name="transport" multiple>
+                          <optgroup label="Ground">
+                            <option value="train">Train</option>
+                            <option value="bus">Bus</option>
+                          </optgroup>
+                          <optgroup label="Water">
+                        </optgroup>
+                       </fieldset>
+                        </section>
+                    </form>
+                    </body>
+                 </html>
